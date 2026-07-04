@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { useAuth } from '../AuthContext';
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
 import api from '../api';
 
 export default function TeacherPage() {
