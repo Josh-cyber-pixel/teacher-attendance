@@ -1,4 +1,3 @@
-```javascriptreact
 import { useAuth } from '../AuthContext';
 import { useNavigate, useLocation, Link } from 'react-router-dom';
 
@@ -15,7 +14,6 @@ export default function Layout({ children }) {
 
   return (
     <div style={{ minHeight:'100vh', display:'flex', flexDirection:'column' }}>
-      {/* Header */}
       <header style={{
         background: '#1B2B4B', color: '#fff',
         padding: '0 24px', height: 56,
@@ -56,16 +54,12 @@ export default function Layout({ children }) {
           }}>Sign out</button>
         </div>
       </header>
-
-      {/* Content */}
       <main style={{ flex: 1, maxWidth: 680, width: '100%', margin: '0 auto', padding: '32px 16px' }}>
         {children}
       </main>
-
       <footer style={{ textAlign:'center', padding: '16px', fontSize: 11, color: '#94a3b8' }}>
         © {new Date().getFullYear()} NoxVector · EduTrack Teacher Attendance
       </footer>
     </div>
   );
 }
-```
