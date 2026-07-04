@@ -1,3 +1,4 @@
+```javascriptreact
 import { useAuth } from '../AuthContext';
 import { useNavigate, useLocation, Link } from 'react-router-dom';
 
@@ -67,3 +68,4 @@ export default function Layout({ children }) {
     </div>
   );
 }
+```
